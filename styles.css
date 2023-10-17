@@ -1,0 +1,79 @@
+*{
+    border: 1px solid rgb(0, 216, 216);
+}
+
+/*^^^ Debuging ^^^*/
+
+
+/* navbar */
+.navbar {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ /* Header */
+.header-container {
+    display: flex;
+    margin: 6% 10% 6% 10%;
+}
+
+.header-text {
+    margin-right: 3%;
+}
+
+
+/* Body */
+.body-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-container h2 {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    padding: 5% 8%;
+}
+
+.info figure {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.quote {
+    margin: 5% 10%;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(156, 204, 237);
+    display: flex;
+    margin: 10%;
+}
+
+footer button {
+    margin: auto;
+    width: 100px;
+    height: 36px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+
