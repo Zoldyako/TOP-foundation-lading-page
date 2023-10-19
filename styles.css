@@ -1,20 +1,21 @@
-/*{
-    border: 1px solid rgb(0, 216, 216);
+/* Hero */
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 5px 15% 8% 15%;
 }
 
-/*^^^ Debuging ^^^*/
-
- /* Header */
-.navbar {
+nav {
     display: flex;
 }
 
 ul {
-    list-style: none;
     margin-left: auto;
     display: flex;
     align-items: center;
     gap: 16px;
+    list-style: none;
 }
 
 a {
@@ -22,56 +23,87 @@ a {
     color: #F9FAF8 ;
 }
 
- header {
-    background-color: #1F2937;
-    color: #F9FAF8;
- }
-
-.header-container {
+.hero-sec {
     display: flex;
-    margin: 6% 0%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
-.header-container button {
+.hero-sec .hero-text {
+    margin-right: 10%;
+}
+
+.hero-sec button {
     background-color: #3882F6;
+    margin-top: 16px;
+    width: 100px;
+    height: 35px;
 }
 
-.header-text {
-    margin-right: 3%;
+.hero-sec .main {
+    font: 48px  bolder ;
+    font-weight: bolder;
+}
+
+.hero-sec .second {
+    font-size: 18px;
 }
 
 
-/* Body */
-.body-container {
+/* Info */
+
+
+.info-container {
     display: flex;
     flex-direction: column;
+    padding: 0 20%;
 }
 
-.body-container h2 {
+.info-container h1 {
+    font: 36px bolder;
     text-align: center;
+    margin: 50px;
 }
 
 .info {
     display: flex;
-    padding: 5% 8%;
+    justify-content: center;
 }
 
 .info figure {
-    border-radius: 16px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    justify-content: center;
+    border-radius: 16px;
+    margin: 16px;
 }
 
 .info img {
     border: 2px solid #3882F6;
     border-radius: 16px;
+    margin: 8px;
 }
 
-.quote {
-    margin: 5% 14%;
-    background-color: #E5E7EB;
+.info figcaption {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    text-align: center;
 }
+
+/* Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 0 15%;
+}
+
+.quote .text {
+    font: 36px italic;
+    color: #1F2937;
+    padding: 100px 50px;
+}
+
 
 .signup-container {
     background-color: #3882F6;
