@@ -1,11 +1,10 @@
-*{
+/*{
     border: 1px solid rgb(0, 216, 216);
 }
 
 /*^^^ Debuging ^^^*/
 
-
-/* navbar */
+ /* Header */
 .navbar {
     display: flex;
 }
@@ -20,13 +19,21 @@ ul {
 
 a {
     text-decoration: none;
+    color: #F9FAF8 ;
 }
 
+ header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+ }
 
- /* Header */
 .header-container {
     display: flex;
-    margin: 6% 10% 6% 10%;
+    margin: 6% 0%;
+}
+
+.header-container button {
+    background-color: #3882F6;
 }
 
 .header-text {
@@ -50,30 +57,43 @@ a {
 }
 
 .info figure {
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
 
+.info img {
+    border: 2px solid #3882F6;
+    border-radius: 16px;
+}
+
 .quote {
-    margin: 5% 10%;
+    margin: 5% 14%;
+    background-color: #E5E7EB;
+}
+
+.signup-container {
+    background-color: #3882F6;
+    display: flex;
+    margin: 10%;
+}
+
+.sign-up {
+    margin: 10px 10px
+}
+
+.signup-container button {
+    margin: auto;
+    width: 100px;
+    height: 35px;
 }
 
 /* Footer */
 
 footer {
-    background-color: rgb(156, 204, 237);
-    display: flex;
-    margin: 10%;
+    background-color: #1F2937 ;
+    text-align: center;
+    color: #F9FAF8 ;
+    height: 50px;
 }
-
-footer button {
-    margin: auto;
-    width: 100px;
-    height: 36px;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 8px;
-}
-
-
