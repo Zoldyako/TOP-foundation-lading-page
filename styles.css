@@ -42,6 +42,7 @@ header {
 
 nav {
     display: flex;
+    margin-top: 10px;
 }
 
 ul {
@@ -57,6 +58,16 @@ a {
     color: #F9FAF8 ;
 }
 
+.site-logo {
+    border-radius: 100%;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
 .hero-sec {
     display: flex;
     margin-top: 50px;
@@ -70,9 +81,13 @@ a {
 
 .hero-sec button {
     background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 14px;
+    border: 0;
+    border-radius: 8px;
     margin-top: 16px;
     width: 100px;
-    height: 35px;
+    height: 36px;
 }
 
 .hero-sec .main {
@@ -80,10 +95,14 @@ a {
     font-weight: 900;
 }
 
+.hero-sec .second {
+    margin-top: 10px;
+    color: #E5E7EB;
+}
+
 .hero-sec .second, .nav-links {
     font-size: 18px;
 }
-
 
 
 
@@ -141,18 +160,28 @@ a {
 }
 
 
+/* Call to action */
+
 .signup-container {
     background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
     display: flex;
+    align-items: center;
     margin: 10%;
+    padding: 4% 8%;
 }
 
-.sign-up {
+.call-to-act {
     margin: 10px 10px
 }
 
-.signup-container button {
-    margin: auto;
+.sign-up {
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    margin-left: auto;
     width: 100px;
     height: 35px;
 }
