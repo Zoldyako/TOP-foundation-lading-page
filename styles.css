@@ -136,6 +136,7 @@ a {
 }
 
 .info figure {
+    width: 500px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -211,7 +212,7 @@ a {
     border: 2px solid #F9FAF8;
     border-radius: 8px;
     margin-left: auto;
-    width: 100px;
+    width: 120px;
     height: 35px;
 }
 
