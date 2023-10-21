@@ -58,6 +58,7 @@ a {
 
 .site-logo {
     border-radius: 100%;
+    max-width: 56px;
 }
 
 .logo-text {
@@ -108,7 +109,10 @@ a {
     font-size: 18px;
 }
 
-
+.hero-image {
+    max-width: 400px;
+    border-radius: 4px;
+}
 
 /* Info */
 
@@ -120,7 +124,7 @@ a {
 }
 
 .info-container h1 {
-    font: 36px 'Roboto', bolder;
+    font: 36px 'Roboto';
     text-align: center;
     margin: 50px;
 }
@@ -131,6 +135,7 @@ a {
 
 .info figure {
     display: flex;
+    align-items: center;
     flex-direction: column;
     border-radius: 16px;
     margin: 16px;
@@ -139,6 +144,7 @@ a {
 .info img {
     border: 2px solid #3882F6;
     border-radius: 16px;
+    width: 120px;
     margin: 8px;
 }
 
