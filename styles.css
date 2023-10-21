@@ -124,7 +124,9 @@ a {
 }
 
 .info-container h1 {
-    font: 36px 'Roboto';
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 900;
     text-align: center;
     margin: 50px;
 }
