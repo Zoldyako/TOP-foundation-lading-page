@@ -1,5 +1,6 @@
 @font-face {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     src: url('fonts/roboto.woff2') format('woff2'),
          url('fonts/roboto.woff') format('woff');
@@ -7,6 +8,7 @@
 
 @font-face {
     font-family: 'Roboto';
+    font-style: bold;
     font-weight: 900;
     src: url('fonts/roboto-bold.woff2') format('woff2'),
          url('fonts/roboto-bold.woff') format('woff');
@@ -14,6 +16,7 @@
 
 @font-face {
     font-family: 'Roboto';
+    font-style: italic;
     font-weight: 300;
     src: url('fonts/roboto-italic.woff2') format('woff2'),
          url('fonts/roboto-italic.woff') format('woff');
@@ -21,15 +24,10 @@
 
 @font-face {
     font-family: 'Roboto';
+    font-style: italic;
     font-weight: 200;
     src: url('fonts/roboto-lightitalic.woff2') format('woff2'),
          url('fonts/roboto-lightitalic.woff') format('woff');
-}
-
-/* Body */
-
-body {
-    font-family: 'roboto';
 }
 
 /* Hero */
@@ -63,6 +61,9 @@ a {
 }
 
 .logo-text {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 24px;
     display: flex;
     align-items: center;
     margin-left: 16px;
@@ -82,25 +83,28 @@ a {
 .hero-sec button {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 16px;
     border: 0;
     border-radius: 8px;
     margin-top: 16px;
-    width: 100px;
+    width: 120px;
     height: 36px;
 }
 
 .hero-sec .main {
     font-size: 48px;
+    font-family: "Roboto";
     font-weight: 900;
 }
 
 .hero-sec .second {
-    margin-top: 10px;
     color: #E5E7EB;
+    margin-top: 10px;
 }
 
 .hero-sec .second, .nav-links {
+    font-family: "Roboto";
     font-size: 18px;
 }
 
@@ -116,7 +120,7 @@ a {
 }
 
 .info-container h1 {
-    font: 36px bolder;
+    font: 36px 'Roboto', bolder;
     text-align: center;
     margin: 50px;
 }
@@ -139,6 +143,7 @@ a {
 }
 
 .info figcaption {
+    font-family: Roboto;
     font-size: 14px;
     color: rgb(85, 85, 85);
     text-align: center;
@@ -150,13 +155,21 @@ a {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 0 15%;
+    padding: 10% 15%;
 }
 
 .quote .text {
-    font: 36px italic;
+    font-size: 36px;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 200;
     color: #1F2937;
-    padding: 100px 50px;
+
+}
+
+.quote .author {
+    font: 18px "Roboto", bold;
+    text-align: end;
 }
 
 
@@ -169,16 +182,24 @@ a {
     display: flex;
     align-items: center;
     margin: 10%;
-    padding: 4% 8%;
+    padding: 3% 8%;
 }
 
 .call-to-act {
+    font-family: Roboto;
     margin: 10px 10px
+}
+
+.call-to-act .one {
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .sign-up {
     background-color: transparent;
     color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
     border: 2px solid #F9FAF8;
     border-radius: 8px;
     margin-left: auto;
@@ -192,7 +213,10 @@ a {
 
 footer {
     background-color: #1F2937 ;
-    text-align: center;
+    font: 16px "Roboto", bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #F9FAF8 ;
-    height: 50px;
+    height: 65px;
 }
